@@ -1,0 +1,21 @@
+body {
+  padding-top: 56px;
+}
+
+.jumbotron {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center/cover;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+footer ul li {
+  margin: 0 0.5rem;
+}
