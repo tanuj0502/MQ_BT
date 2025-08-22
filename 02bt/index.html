@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min-Width Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-box {
+      background-color: lightgray;
+      padding: 20px;
+      text-align: center;
+      display: none;
+    }
+@media (min-width: 576px){
+      .custom-box {
+        display: block;
+        background-color: rgb(47, 198, 168);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .custom-box {
+        display: block;
+        background-color: lightblue;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .custom-box {
+        background-color: lightgreen;
+      }
+    }
+    @media (min-width: 1200px){
+      .custom-box {
+        background-color: rgb(146, 169, 40);
+      }
+    }
+
+    @media (min-width: 1400px){
+        .custom-box{
+            background-color: rgb(175, 122, 57);
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center">Min-Width Box</h2>
+    <div class="custom-box">
+      Shrink!
+    </div>
+  </div>
+</body>
+</html>
