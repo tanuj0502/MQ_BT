@@ -1,0 +1,26 @@
+.container-custom {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1 { font-size: 2.75rem; }
+h2 { font-size: 2.25rem; margin-bottom: 1rem; }
+.lead { font-size: 1.25rem; }
+
+.card { border: none; }
+.blockquote { font-style: italic; }
+
+@media (max-width: 992px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 2rem; }
+  .lead { font-size: 1.1rem; }
+}
+
+@media (max-width: 576px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  .lead { font-size: 1rem; }
+  .navbar-nav .btn { margin-top: 0.5rem; }
+}

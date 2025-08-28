@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0" 
+  />
+  <title>Startup Landing</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-custom">
+      <a class="navbar-brand" href="#">StartupCo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-3" href="#contact">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 bg-white">
+    <div class="container-custom row align-items-center gx-5">
+      <div class="col-lg-6">
+        <h1>Your Next Big Idea, Powered Here</h1>
+        <p class="lead">
+          We provide the tools and expertise to launch your product in days, not months.
+        </p>
+        <a href="#pricing" class="btn btn-primary btn-lg">View Plans</a>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img
+          src="https://via.placeholder.com/500x350"
+          class="img-fluid"
+          alt="Hero image"
+        />
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="py-5 bg-light">
+    <div class="container-custom">
+      <h2 class="text-center mb-4">Features</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-3">
+            <div class="mb-3">
+              <i class="bi bi-gear" style="font-size: 2rem;"></i>
+            </div>
+            <h5>Easy Setup</h5>
+            <p>Get started with one-click installation and intuitive onboarding.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-3">
+            <div class="mb-3">
+              <i class="bi bi-speedometer2" style="font-size: 2rem;"></i>
+            </div>
+            <h5>Blazing Fast</h5>
+            <p>Optimized code and CDN delivery ensure lightning-fast performance.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-3">
+            <div class="mb-3">
+              <i class="bi bi-shield-lock" style="font-size: 2rem;"></i>
+            </div>
+            <h5>Secure</h5>
+            <p>Enterprise-grade security and automatic backups protect your data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-5">
+    <div class="container-custom">
+      <h2 class="text-center mb-4">What Our Clients Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <blockquote class="blockquote">
+              <p>"StartupCo took our MVP from concept to launch in two weeks. Incredible!"</p>
+              <footer class="blockquote-footer">Jane Doe, CEO of InnovateX</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item text-center">
+            <blockquote class="blockquote">
+              <p>"Their support and guidance were invaluable. Highly recommend."</p>
+              <footer class="blockquote-footer">John Smith, Founder of ScaleHub</footer>
+            </blockquote>
+          </div>
+        </div>
+        <button 
+          class="carousel-control-prev" 
+          type="button" 
+          data-bs-target="#testimonialCarousel" 
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button 
+          class="carousel-control-next" 
+          type="button" 
+          data-bs-target="#testimonialCarousel" 
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container-custom">
+      <h2 class="text-center mb-4">Pricing Plans</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4">
+            <h5 class="card-title">Starter</h5>
+            <p class="display-4">$19<span class="fs-5">/mo</span></p>
+            <ul class="list-unstyled mb-4">
+              <li>Basic Features</li>
+              <li>Email Support</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary">Choose Plan</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4 border-primary">
+            <h5 class="card-title">Pro</h5>
+            <p class="display-4">$49<span class="fs-5">/mo</span></p>
+            <ul class="list-unstyled mb-4">
+              <li>All Starter Features</li>
+              <li>Priority Support</li>
+              <li>Analytics Dashboard</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Choose Plan</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center p-4">
+            <h5 class="card-title">Business</h5>
+            <p class="display-4">$99<span class="fs-5">/mo</span></p>
+            <ul class="list-unstyled mb-4">
+              <li>All Pro Features</li>
+              <li>Dedicated Manager</li>
+              <li>Custom Integrations</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary">
